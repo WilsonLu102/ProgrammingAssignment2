@@ -1,5 +1,3 @@
-#dummy text ignore - used for testing github#
-
 # This function creates a matrix used for calucating the inverse of itself
 # This function has the four functionalities 
 # set the value of the matrix
@@ -23,6 +21,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 ## Return a matrix that is the inverse of 'x'
+## Method assumes that the matrix is inversible 
 cacheSolve <- function(x, ...) {
     m <- x$getInverse()
     
